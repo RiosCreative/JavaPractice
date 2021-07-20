@@ -1,20 +1,6 @@
 package questions;
 
-public class FindTheFibonacciNumber {
-
-	public static void main(String[] args) {
-		System.out.println("First fibonacci number is " + fibRecursive(1));
-		System.out.println("Second fibonacci number is " + fibRecursive(2));
-		System.out.println("Third fibonacci number is " + fibRecursive(3));
-		System.out.println("Fourth fibonacci number is " + fibRecursive(4));
-		System.out.println("Fifth fibonacci number is " + fibRecursive(5));
-		
-		System.out.println("First fibonacci number is " + fib(1));
-		System.out.println("Second fibonacci number is " + fib(2));
-		System.out.println("Third fibonacci number is " + fib(3));
-		System.out.println("Fourth fibonacci number is " + fib(4));
-		System.out.println("Fifth fibonacci number is " + fib(5));
-	}
+public interface FindTheFibonacciNumber {
 	
 	public static int fibRecursive(int n) {
 		if (n <= 1) {
